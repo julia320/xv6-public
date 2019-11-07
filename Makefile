@@ -183,6 +183,7 @@ UPROGS=\
 	_zombie\
 	_syshaw\
 	_twoproc\
+	_lab9test\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
